@@ -8,8 +8,12 @@ Widows comes in two flavours, jQuery plugin or vanilla JavaScript.
 
 ### jQuery
 
+Call `widows()` on a jQuery object.
+
     $('p').widows();
 
 ### JavaScript
 
-    Widows.remove(document.querySelectorAll('p'));
+Call `Widows.remove()` and pass in a query selector (calls `document.querySelectorAll()` internally).
+
+    Widows.remove('p');
